@@ -3,7 +3,7 @@
  * main - prints the alphabet
  * Return: 0
  */
-init main(void)
+int main(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
