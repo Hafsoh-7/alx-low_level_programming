@@ -5,13 +5,13 @@
  */
 init main(void)
 {
-	char alp[26] - "abcdefghijklmnopqrstuvwxyz";
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; 1 < 26; i++)
 	{
-		putchar(alp[1])
+		putchar(alp[1]);
 	}
-	putchar('\n')
+	putchar('\n');
 		return (0);
 }
