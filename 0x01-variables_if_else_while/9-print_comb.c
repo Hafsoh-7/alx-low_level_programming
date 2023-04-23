@@ -12,8 +12,8 @@ int main(void)
 		putchar(n);
 		if (n != 47)
 		{
-			puchar(',');
-			puchar(' ');
+			putchar(',');
+			putchar(' ');
 
 		}
 	putchar('\n');
