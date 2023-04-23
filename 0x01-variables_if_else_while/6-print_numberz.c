@@ -1,0 +1,13 @@
+#include <stdio.h>
+/**
+ * main - prints single digits in base 10
+ * Return: 0
+ */
+int main(void)
+{
+	int num;
+
+	for (ch = 0; ch < 10; ch++)
+		putchar ((num % 10) + '0');
+	putchar('\n');
+	return (0);
