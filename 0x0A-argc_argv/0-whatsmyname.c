@@ -1,18 +1,17 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * _puts_recursion - function like puts();
- * @s: input
+ * main - prints the name of the program
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
  * Return: Always 0 (Success)
  */
-void _puts_recursion(char *s)
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	if (*s)
-	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
-	}
+	printf("%s\n", *argv);
 
-	else
-	_putchar('\n');
+	return (0);
 }
 
